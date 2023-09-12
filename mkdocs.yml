@@ -1,0 +1,58 @@
+# Project information
+
+site_name: Security Workshops
+site_description: 'A collection of AWS Security related workshops'
+site_author: 'aws-security-workshops@amazon.com'
+site_url: 'https://awssecworkshops.com'
+
+# Repository
+repo_name: 'aws-samples/aws-security-workshops'
+repo_url: 'https://github.com/aws-samples/aws-security-workshops'
+
+# Copyright
+copyright: '<a href="https://aws.amazon.com/privacy/" target="_blank">Privacy</a> | <a href="https://aws.amazon.com/terms/" target="_blank">Site terms</a> | &copy; 2020, Amazon Web Services, Inc. or its affiliates. All rights reserved.'
+
+# Configuration
+theme:
+  name: material
+  static_templates:
+    - 404.html
+  logo: 'assets/images/aws_smile_logo.png'
+  favicon: 'assets/images/aws-favicon.ico'
+  features:
+    - tabs
+  font: false
+
+# Customization
+extra_css:
+  - 'stylesheets/custom.css'
+
+extra:
+  social:
+    - icon: fontawesome/solid/home
+      link: https://awssecworkshops.com
+    - icon: fontawesome/solid/shield-alt
+      link: https://aws.amazon.com/security/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/awssecurityinfo?lang=en
+    - icon: fontawesome/solid/rss-square
+      link: https://aws.amazon.com/blogs/security/
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.details
+
+# Navigation
+nav:
+  - Home: 'index.md'
+  - Getting Started: 'getting-started.md'
+  - Builder Sessions: 
+    - Directory: 'builder-sessions.md'
+  - Workshops: 
+    - Directory: 'workshops.md'
+  - Contributing: 'contribute.md'
+  - License: 'license.md'
+
+
